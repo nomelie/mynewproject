@@ -10,7 +10,7 @@
 #' aGreatFunction(1, 1)
 #' aGreatFunction(10, 1)
 aGreatFunction <-  function(x,y){
-  return(x+y)
+  return(x%%y)
 }
 
 #' Makes A Histogram.
